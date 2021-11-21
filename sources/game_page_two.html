@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="game_page_two.css">
+    <script src="game_page_two.js" defer></script>
+    <title> Head Football </title>
+</head>
+
+<body>    
+    
+    <div class="stage"> 
+
+        <div class="buttons">
+            <div class="button">
+                <img src="../data/pause.png" class="buttonImg" id="play" alt="">
+            </div>
+            <div class="button" >
+                <img src="../data/sound.png" class="buttonImg" id="sound" alt="">
+            </div>
+        </div>
+
+
+        <img src="../data/crowd.png" class="crowd" alt="">
+
+        <div class="panel">Press "SPACE" to start <br>
+        First to 5 wins</div>
+        <div class="score">
+            <span class="team1">0</span> : <span class="team2">0</span>
+        </div>
+
+        <em>GOOOAL!!!</em>
+
+        <div class="goal left">
+            <div class="bar L"></div>
+            <div class="frontBarL"></div>
+            <div class="postL"></div>
+            <img src="../data/net.png" class="net" alt="">
+        </div>
+        <div class="goal right">
+            <div class="bar R"></div>
+            <div class="frontBarR"></div>
+            <div class="postR"></div>
+            <img src="../data/net.png" class="net" alt="">
+        </div>
+
+        <div class="circle player1">
+            <div class="foot p1">
+                <img src="../data/shoeL.png" class="shoeL" alt="">
+            </div>
+            <img src="../data/player1.png" class="player_img" alt="">
+        </div>
+
+        <div class="circle player2">
+            <div class="foot p2">
+                <img src="../data/shoeR.png" class="shoeR" alt="">
+            </div>
+            <img src="../data/player2.png" class="player_img flip" alt="">
+        </div>
+
+        <div class="ball">
+            <canvas></canvas>
+        </div>
+
+        <div class="field">
+            <div class="center"></div>
+            <div class="line"></div>
+            <div class="spot"></div>
+        </div>
+
+        <div class="box Left"></div>
+        <div class="box Right"></div>
+
+        <img src="../data/confetti.png" class="confetti" alt="">
+
+        <div class="currtan"></div>
+
+        <div class="instructions LLL">Player 1<br>
+        Moving: <br> WASD <br>
+        Kick: <br> SPACE</div>
+
+        <div class="instructions RRR">Player 2<br>
+            Moving: <br> Arrows <br>
+            Kick: <br> P</div>
+
+    </div>
+</body>
+
+</html>
